@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/contacto.css">
+    <title>contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="./frutas.html">FRUTAS</a>
+                </li>
+                <li>
+                    <a href="./taller.html">TALLER</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="formulario">
+        <h1>formulario de contacto</h1>
+        <p>
+            Nombre: <input class="control" type="text" name="nombre" id="nombre" placeholder="ingrese nombre">
+        </p>
+        <p>
+            Mail: <input class="control" type="text" name="mail" id="mail" placeholder="correo electronico">
+        </p>
+        <p>
+            Asunto: <input class="control" type="text" name="asunto" id="asunto" placeholder="asunto">
+        </p>
+        <p>
+            Mensaje: <input class="control" type="text" name="mensaje" id="mensaje" placeholder="mensaje" size="50">
+        </p>
+        <button class="botons" type="button" onclick="captura()">ENVIAR</button>
+        <button class="botons" type="button" onclick="eliminar()">ELIMINAR TODOS LOS CAMPOS</button>
+    </section><br>
+    <footer>
+        <div class="footer">
+            © 2022 taller final harold alzate - Todos los derechos reservados
+        </div>
+    </footer>
+    <script src="pages.js"></script>
+</body>
+
+</html>

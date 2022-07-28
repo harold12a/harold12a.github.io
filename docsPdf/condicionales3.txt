@@ -1,0 +1,25 @@
+Algoritmo Condicionales
+	
+
+	Definir nombre,apellido Como Caracter;
+	Definir edad Como Entero;
+	
+	Escribir "ingrese su nombre y apellido en cada campo"
+	Leer nombre, apellido;
+	
+	Escribir "ingrese su edad"
+	Leer edad;
+	
+	Si edad >= 18 Entonces
+		Escribir nombre,"-", apellido, " usted es mayor de edad, por lo tanto puede entrar a la fiesta ";
+	SiNo 
+		Escribir nombre,"-", apellido, " usted es menor de edad, por lo tanto, no puede ingresar a la fiesta, por favor regrese para su casa"
+	FinSi
+	
+	
+	
+
+	
+
+	
+FinAlgoritmo

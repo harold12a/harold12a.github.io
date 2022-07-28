@@ -1,0 +1,35 @@
+Algoritmo Maquinista
+	
+
+	Definir peso,altura,imc Como Real;
+	
+	Escribir "ingrese su peso en kg"
+	Leer peso
+	Escribir "ingrese su altura en mt"
+	Leer altura
+	// calcular
+	imc= peso/(altura*altura);
+	Escribir "";
+	Escribir "su indice de masa corporal es: ", imc;
+	
+	Si (imc<18.5) Entonces
+		Escribir "usted esta de bajo peso"
+	FinSi
+	Si(imc >= 18.5 ) y( imc < 25 ) Entonces
+		Escribir "tiene el peso normal"
+	FinSi
+	Si(imc >=25 ) y( imc < 30 ) Entonces
+		Escribir "tiene sobre peso"
+	FinSi
+	Si(imc >= 30 ) Entonces
+		Escribir "tiene obesidad"
+			
+	FinSi
+	
+	
+
+	
+
+
+	
+FinAlgoritmo

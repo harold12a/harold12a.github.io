@@ -1,0 +1,31 @@
+Algoritmo Ciclos
+	
+	Definir control Como Logico;
+	Definir aumentar Como Entero;
+	control <- Verdadero
+	aumentar <- 1
+	Escribir "escribe verdadero para ver la figura // falso para saltar la figura" 
+	Leer control;
+	Mientras control = Verdadero Hacer
+	
+		Escribir  "            *" 
+		Escribir  "           **" 
+		Escribir  "          ***" 
+		Escribir  "         ****"
+		Escribir  "        *****"  
+		Escribir  "       ******" 
+		Escribir  "     ********"
+		Escribir  "    *********"
+		Escribir  "   **********"
+		Escribir  " ************"
+		Escribir "escribe verdadero para ver la figura // falso para saltar la figura" 
+		Leer control;
+		
+		
+		aumentar <- aumentar+1;
+		
+		
+		
+	FinMientras
+	
+FinAlgoritmo

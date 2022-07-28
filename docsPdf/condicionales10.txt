@@ -1,0 +1,50 @@
+Algoritmo Maquinista
+	
+	definir titular Como Caracter;
+	definir saldo Como Real;
+	definir monto Como Real;
+	
+	Escribir "nombre de usuario";
+	Leer titular;
+	Escribir "asignar saldo";
+	Leer saldo;
+	definir opciones Como Entero;
+	Escribir "bienvenido a tu banco indica la gestion a realizar"
+	Escribir " 1. ingresar saldo"
+	Escribir " 2. retirar dinero"
+	Escribir " 3. consultar saldo"
+	Leer opciones
+	Segun opciones Hacer
+		1:
+			escribir "Digite monto a ingresar: ";
+			Leer monto;
+			si monto > 0  Entonces
+				saldo <- saldo+monto
+			Escribir "dinero ingresado con exito, saldo actual $", saldo;
+		    Sino
+			Escribir "cantidad no valida"
+		     FinSi
+		
+			
+		2:  
+			Escribir "Digite el monto a retirar"
+			Leer monto;
+			si monto < saldo Entonces
+				saldo <- saldo-monto;
+				Escribir "dinero retirado con exito, saldo actual : $ ", saldo;
+			FinSi
+			3:
+				Escribir " saldo actual: $ ",saldo;
+			
+			De Otro Modo:
+			
+				Escribir "opcion no valida";
+			
+	FinSegun
+	
+	
+	
+
+
+	
+FinAlgoritmo

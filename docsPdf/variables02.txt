@@ -1,0 +1,24 @@
+Proceso SofkaLearningHarold
+	Definir nombre Como Caracter;
+	Definir apellido Como Caracter;
+	Definir edad Como Entero;
+	Definir estatura Como Real;
+	
+	Escribir "cual es tu primer nombre";
+	Leer nombre;
+	
+	Escribir "cuales son tus apellidos";
+	Leer apellido;
+	
+	Escribir "cual es tu edad";
+	Leer edad;
+	
+	Escribir "cual es tu estatura";
+	Leer estatura;
+	
+	
+	Limpiar Pantalla;
+	
+	Escribir " mi nombre es: ", nombre, " y tengo estos apellidos: ", apellido, " tengo la edad de: ",edad," con una estatura de:",estatura;
+	
+FinProceso

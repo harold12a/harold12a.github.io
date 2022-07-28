@@ -1,0 +1,18 @@
+Algoritmo Ciclos
+	Definir terminar Como Logico
+	terminar <- verdadero
+	
+	Escribir "cuando dese terminar escribir falso // o el numero 0" 
+	Escribir "verdadero para continuar" 
+	Escribir "menu de usuario"
+	
+	
+	Repetir
+		
+		Escribir " 1. Captura nombre"
+		Escribir " 2. Saludar persona"
+		Escribir " 3. Salir del sistema"
+		Leer terminar
+		
+	Hasta Que terminar=falso
+FinAlgoritmo

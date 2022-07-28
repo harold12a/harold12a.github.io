@@ -1,0 +1,69 @@
+*{
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../images/fondo3.jpg);
+    }
+
+/*TABLA */
+table, th, td{
+        border: 2px solid black;
+  
+    }
+
+.table{
+    display: flex;
+    justify-content: center;
+    margin: 15%;
+   
+}
+
+
+/*NAVBAR*/
+.navBar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .navBar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+ }
+ .navBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto,"sans-serif";
+    font-size: 1.2rem;
+ }
+ /*MOVIMINETO DE LINEA ABAJO DE LOS ENUNCIADOS*/
+ .navBar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition:0.4s ease-out;
+ }
+ .navBar ul li:hover::before{
+    width: 100%;
+ }
+/*FOOTER*/
+
+.footer{
+    text-align: center;
+    background-color: #1f53c5;
+    color: aliceblue;
+ }

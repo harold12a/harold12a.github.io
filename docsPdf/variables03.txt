@@ -1,0 +1,34 @@
+Proceso SofkaLearningHarold
+	
+	Definir nombre Como Caracter;
+	Definir apellido Como Caracter;
+	Definir nombreMadre Como Caracter;
+	Definir apellidoMadre Como Caracter;
+	Definir nombrePadre Como Caracter;
+	Definir apellidoPadre Como Caracter;
+	
+	
+	Escribir "cual es tu primer nombre";
+	Leer nombre;
+	
+	Escribir "cuales son tus apellidos";
+	Leer apellido;
+	
+	Escribir "nombre de su madre";
+	Leer nombreMadre;
+	
+	Escribir "apellidos de su madre";
+	Leer apellidoMadre;
+	
+	Escribir "nombre de su padre";
+	Leer nombrePadre;
+	
+	Escribir "apellidos de su padre";
+	Leer apellidoPadre;
+	
+	
+	Limpiar Pantalla;
+	
+	Escribir " mi nombre completo es: ",nombre, apellido, " soy hijo de ",nombreMadre,apellidoMadre "y",nombrePadre,apellidoPadre;
+	
+FinProceso

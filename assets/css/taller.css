@@ -1,0 +1,106 @@
+*{
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-image: url(../images/fondo3.jpg);
+}
+
+/*NAVBAR*/
+ .navBar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .navBar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+ }
+ .navBar ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto,"sans-serif";
+    font-size: 1.2rem;
+ }
+/*MOVIMINETO DE LINEA ABAJO DE LOS ENUNCIADOS*/
+ .navBar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: blue;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition:0.4s ease-out;
+ }
+ .navBar ul li:hover::before{
+    width: 100%;
+ }
+
+ /*ACORDEON */
+
+.acordeonStudio{
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    background-color:aliceblue;
+    margin: 5px;
+    
+}
+
+.active,.acordeonStudio:hover{
+    background-color: rgb(181, 181, 227);
+}
+
+
+.title {  
+    display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+margin: 20px; 
+}
+
+/*CLASS ACORDEON*/
+
+
+.active, .acordeon:hover{
+    background-color:rgb(60, 49, 146);
+}
+
+.panel{
+    padding: 0px 20px;
+    display: none;
+    background-color: rgb(250, 223, 117);
+    overflow: hidden;
+}
+
+/*ENUNCIADO*/
+
+.enunciado{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 20px;    
+}
+
+.videos{
+    text-align: center;
+  
+}

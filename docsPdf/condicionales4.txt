@@ -1,0 +1,52 @@
+Algoritmo laVideoTienda
+	
+
+	Definir nombre,apellido Como Caracter;
+	Definir alquierPelicula, consultarPeliDisponible Como Caracter;
+	Definir opciones Como Entero;
+	Definir disPelicula Como Logico;
+	
+	Escribir "ingrese su nombre de usuario: "
+	leer  nombre;
+
+	
+	Escribir " eliga una opcion para realizar su consulta";
+	Escribir " 1 - alquiler de pelicula";
+	Escribir " 2 - consultar disponibilidad de peliculas";
+	Escribir " 3 - recibir pelicula en la tienda ";
+	Leer opciones;
+	
+	Segun opciones Hacer
+		
+			
+		1:  Escribir "las peliculas para alquilar  son :" 
+			Escribir "  avatar "
+			Escribir "  fash and furios "
+			Escribir "  piratas del caribe   "
+			Escribir " escribe el nombre de la pelicula que quieres alquilar "
+			
+			leer  alquierPelicula;
+			
+			Escribir   "disfruta tu pelicula"
+		2:
+			Escribir "las peliculas diponibles  son :" 
+			Escribir "  avatar "
+			Escribir "  fash and furios "
+			Escribir "  piratas del caribe   "
+			Escribir "  ve a la opcion 1 y alquila una pelicula    "
+			
+			
+
+		3:
+			Escribir  "retira tu pelicula en la tienda, indicanos que pelicula vas a llevar "
+			leer  alquierPelicula
+			Escribir " esta disponible ", alquierPelicula;
+			Leer disPelicula
+			
+	FinSegun
+	
+	
+
+
+	
+FinAlgoritmo

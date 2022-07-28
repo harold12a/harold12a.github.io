@@ -1,0 +1,224 @@
+Algoritmo Ejercicio8
+	
+	Definir usuario,consultar Como Caracter;
+
+	Definir Nombre1 Como Caracter;
+	Definir Nombre2 Como Caracter;
+	Definir Nombre3 Como Caracter;
+	Definir Nombre4 Como Caracter;
+	Definir Nombre5 Como Caracter;
+	Definir Nombre6 Como Caracter;
+	Definir Nombre7 Como Caracter;
+	Definir Nombre8 Como Caracter;
+
+	Definir ID1,ID2,ID3,ID4,ID5,ID6,ID7,ID8,i,Opciones Como Entero;
+	Definir RESULTADO1,RESULTADO2,RESULTADO3,RESULTADO4,RESULTADO5,RESULTADO6,RESULTADO7,RESULTADO8 Como Entero;
+	Definir control Como Logico
+	control<-Verdadero
+	
+	
+	Repetir
+		Escribir "ENSEÑANZA AUTOMOVILISTICA";
+		Escribir " 1. INGRESAR AL CURSO";
+		Escribir " 2. CONSULTAR USUARIO - RESULTADO DE PRUEBA";
+		Escribir " 3. SALIR";
+		Leer Opciones;
+		
+		Segun Opciones Hacer
+			1:
+				i<-0;
+				Repetir
+					Escribir "REGISTRO USUARIO: ";
+					Escribir "ID: ";
+					Escribir "REGISTRO DE PRUEBA 0 A 10: ";
+					
+					Escribir "************************************* ";
+				
+					i<-i+1;
+					si i==1 Entonces
+						Escribir "USUARIO: ";
+						Leer Nombre1;
+						Escribir "ID: ";
+						Leer ID1;
+						Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+						Leer RESULTADO1;
+						Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+						Leer usuario;
+					
+					SiNo
+						si i==2 Entonces
+							Escribir "USUARIO: ";
+							Leer Nombre2;
+							Escribir "ID: ";
+							Leer ID2;
+							Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+							Leer RESULTADO2;
+							Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+							Leer usuario;
+						SiNo
+							si i==3 Entonces
+								Escribir "USUARIO: ";
+								Leer Nombre3;
+								Escribir "ID: ";
+								Leer ID3;
+								Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+								Leer RESULTADO3;
+								Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+								Leer usuario;
+							SiNo
+								si i==4 Entonces
+									Escribir "USUARIO: ";
+									Leer Nombre4;
+									Escribir "ID: ";
+									Leer ID4;
+									Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+									Leer RESULTADO4;
+									Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+									Leer usuario;
+								SiNo
+									si i==5 Entonces
+										Escribir "USUARIO: ";
+										Leer Nombre5;
+										Escribir "ID: ";
+										Leer ID5;
+										Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+										Leer RESULTADO5;
+										Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+										Leer usuario;
+									SiNo
+										
+										si i==6 Entonces
+											Escribir "USUARIO: ";
+											Leer Nombre6;
+											Escribir "ID: ";
+											Leer ID6;
+											Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+											Leer RESULTADO6;
+											Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+											Leer usuario;
+										SiNo
+											si i==7 Entonces
+										Escribir "USUARIO: ";
+										Leer Nombre7;
+										Escribir "ID: ";
+										Leer ID7;
+										Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+										Leer RESULTADO7;
+										Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+										Leer usuario;
+									SiNo
+										si i==8 Entonces
+									Escribir "USUARIO: ";
+									Leer Nombre8;
+									Escribir "ID: ";
+									Leer ID8;
+									Escribir "PUNTUACION DE LA PRUEBA DEL 0 -10 : ";
+									Leer RESULTADO8;
+									Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+									Leer usuario;
+								SiNo
+								FinSi
+							FinSi
+						FinSi
+					FinSi
+				FinSi
+			FinSi
+		FinSi
+	FinSi
+
+					Limpiar Pantalla;
+				Hasta Que usuario == "n" o i== 5
+				
+			2:
+				Escribir "CONSULTAR PRUEBA";
+				Escribir "INGRESE EL ID";
+				Leer consular;
+				
+				si consular = ID1 Entonces
+					Escribir Nombre1," SU RESULTADO ES: ",RESULTADO1;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+					
+				SiNo
+					
+				FinSi
+				si consular = ID2 Entonces
+					Escribir Nombre2," SU RESULTADO ES: ",RESULTADO2;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID3 Entonces
+					Escribir Nombre3," SU RESULTADO ES: ",RESULTADO3;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID4 Entonces
+					Escribir Nombre4," SU RESULTADO ES: ",RESULTADO4;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID5 Entonces
+					Escribir Nombre5," SU RESULTADO ES: ",RESULTADO5;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID6 Entonces
+					Escribir Nombre6," SU RESULTADO ES: ",RESULTADO6;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID7 Entonces
+					Escribir Nombre7," SU RESULTADO ES: ",RESULTADO7;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+				si consular = ID8 Entonces
+					Escribir Nombre8," SU RESULTADO ES: ",RESULTADO8;
+					
+					Escribir "NO APROBO < 7"
+					Escribir " APROBO >= 7"
+					Escribir "PUEDES COMUNICARTE CON NOSOTROS SI TIENES INQUIETUDES # 123456789"
+				SiNo
+					
+				FinSi
+			3:
+					Escribir "GRACIAS POR VISITARNOS"
+					control<-falso;
+				De Otro Modo:
+					Escribir "opcion no valida"
+		FinSegun
+		
+	
+	Hasta Que control == Falso
+	
+	
+	
+	
+	
+FinAlgoritmo

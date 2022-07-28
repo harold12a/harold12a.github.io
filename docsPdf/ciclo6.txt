@@ -1,0 +1,170 @@
+Algoritmo TallerClico6
+	//contacto 1
+	Definir NombreFull1 Como Caracter
+	Definir Telefono1 Como Caracter
+	Definir Organizacion1 Como Caracter
+	Telefono1<-"";
+	//contacto 2
+	Definir NombreFull2 Como Caracter
+	Definir Telefono2 Como Caracter
+	Definir Organizacion2 Como Caracter
+	Telefono2<-"";
+	//contacto 3
+	Definir NombreFull3 Como Caracter
+	Definir Telefono3 Como Caracter
+	Definir Organizacion3 Como Caracter
+	Telefono3<-"";
+	
+	Definir ciclo Como Entero;
+	Definir iterador Como Entero;
+	Definir mensaje Como Caracter;
+	Definir numeroTelefono Como Caracter;
+	Definir seEncontro Como Logico;
+	Definir clear Como Logico;
+	Definir eliminar Como Caracter;
+	
+	mesanje <-"";
+	iterador<-0;
+	ciclo <-0;
+	seEncontro<-falso;
+	clear<-Falso;
+	
+	Repetir
+		
+		si clear <> Verdadero Entonces
+			Limpiar Pantalla;
+		FinSi
+		Escribir "Contactos";
+		Escribir "Usted tiene ",iterador, " contactos";
+		Escribir mensaje;
+		Escribir "";
+		Escribir " 1. Añadir contacto";
+		Escribir " 2. Buscar Contactos";
+		Escribir " 3. Eliminar Contacto";
+		Escribir " 4. Salir";
+		Leer ciclo;
+		
+		clear <- falso;
+		seEncontro <-falso;
+		
+		segun ciclo Hacer
+			1:
+				si iterador < 3 & iterador >= 0 Entonces
+					si iterador == 0 Entonces
+						Escribir "Añadir telefono";
+						Leer Telefono1;
+						Escribir "ingrese nombre completo";
+						Leer NombreFull1;
+						Escribir  "Ingrese organizacion";
+						Leer Organizacion1;
+						
+					FinSi
+					si iterador ==1 Entonces
+						Escribir "Añadir telefono";
+						Leer Telefono2;
+						
+						si Telefono2== Telefono1 Entonces
+							mensaje<- "el numero ya existe. ";
+							Telefono2<-"";
+						SiNo
+							Escribir "ingrese nombre completo";
+							Leer NombreFull2;
+							Escribir  "Ingrese organizacion";
+							Leer Organizacion2;
+						
+						FinSi
+					FinSi
+					
+					si iterador ==2 Entonces
+						Escribir "Añadir telefono";
+						Leer Telefono3;
+						si Telefono3== Telefono1 & Telefono3== Telefono2 Entonces
+							mensaje<- "el numero ya existe. ";
+							Telefono3<-"";
+						SiNo
+							
+							Escribir "ingrese nombre completo";
+							Leer NombreFull3;
+							Escribir  "Ingrese organizacion";
+							Leer Organizacion3;
+						
+					FinSi
+				FinSi
+				
+				iterador<-iterador+1;
+			
+			SiNo
+				mensaje<-"no se puede agregar mas contactos";
+			Finsi
+		2:
+			Escribir "ingrese numero telefonico a buscar ";
+			 Leer numeroTelefono;
+			
+		    	si numeroTelefono == Telefono1 Entonces
+				Escribir "nombre: ", NombreFull1;
+				Escribir "telefono: ", Telefono1;
+				Escribir "organizacion: ", Organizacion1;
+				
+				seEncontro<- Verdadero;
+				mensaje<-"";
+				clear<-Verdadero;
+			 FinSi
+			 si numeroTelefono == Telefono2 Entonces
+				Escribir "nombre: ", NombreFull2;
+				Escribir "telefono: ", Telefono2;
+				Escribir "organizacion: ", Organizacion2;
+				
+				seEncontro<- Verdadero;
+				mensaje<-"";
+				clear<-Verdadero;
+			 FinSi
+			 si numeroTelefono == Telefono3 Entonces
+				Escribir "nombre: ", NombreFull3;
+				Escribir "telefono: ", Telefono13;
+				Escribir "organizacion: ", Organizacion3;
+				
+				seEncontro<- Verdadero;
+				mensaje<-"";
+				clear<-Verdadero;
+			 FinSi
+			
+			 si seEncontro <>  Verdadero Entonces
+				mensaje<- "No se encontro el numero telefonico"
+			 FinSi
+			
+		      3:
+			 Escribir "eliminar contacto si (y), NO (n)";
+			 Leer eliminar;
+			
+			 si eliminar == "y" Entonces
+				NombreFull1<-"";
+				NombreFull2<-"";
+				NombreFull3<-"";
+				
+				Telefono1<-"";
+				Telefono2<-"";
+				Telefono3<-"";
+				
+				Organizacion1<-"";
+				Organizacion2<-"";
+				Organizacion3<-"";
+				
+				iterador<-0;
+				
+			FinSi
+			
+			
+					FinSegun
+
+		
+		
+   Hasta Que ciclo ==4;
+	
+
+	
+	
+	
+	
+	
+	
+FinAlgoritmo

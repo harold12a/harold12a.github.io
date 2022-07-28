@@ -1,0 +1,45 @@
+Proceso Arreglos
+	
+	Definir aDatos Como Real;;
+	Definir columna, fila Como Entero;
+	columna<-5; fila<-4;
+	
+	Dimension aDatos[5,4];
+	
+	aDatos[0,0]<-01;
+	aDatos[1,0]<-02;
+	aDatos[2,0]<-03;
+	aDatos[3,0]<-04;
+	aDatos[4,0]<-05;
+	
+	aDatos[0,1]<-10;
+	aDatos[1,1]<-09;
+	aDatos[2,1]<-08;
+	aDatos[3,1]<-07;
+	aDatos[4,1]<-06;
+	
+	aDatos[0,2]<-11;
+	aDatos[1,2]<-12;
+	aDatos[2,2]<-13;
+	aDatos[3,2]<-14;
+	aDatos[4,2]<-15;
+	
+	aDatos[0,3]<-20;
+	aDatos[1,3]<-19;
+	aDatos[2,3]<-18;
+	aDatos[3,3]<-17;
+	aDatos[4,3]<-16;
+	
+	Para fila<-0 Hasta 3 Con Paso 1 Hacer
+		
+		Para columna<-0 Hasta 4 Con Paso 1 Hacer
+			Escribir aDatos[columna,fila], "" Sin Saltar;
+		FinPara
+		Escribir " ";
+	FinPara
+	
+	
+	
+	
+	
+FinProceso

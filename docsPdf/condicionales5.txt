@@ -1,0 +1,67 @@
+Algoritmo drogueria
+	
+
+	Definir nombre,apellido Como Caracter;
+	Definir comprarProducto, consultarValorProducto, devoluciones Como Caracter;
+	Definir opciones Como Entero;
+	
+	
+	Escribir "ingrese su nombre de usuario: "
+	leer  nombre;
+
+	
+	Escribir " eliga una opcion para realizar su consulta";
+	Escribir " 1 - comprar producto";
+	Escribir " 2 - consultar valor del producto";
+	Escribir " 3 - devoluciones ";
+	Leer opciones;
+	
+	Segun opciones Hacer
+		
+			
+		1:  Escribir "que medicamento desea comprar:" 
+			Escribir "  dolex "
+			Escribir "  gota para los ojos "
+			Escribir "  repelente   "
+			Escribir "  agua "
+			Escribir "  producto dermatologico "
+			Escribir " escribe el nombre del medicamento que deseas llevar"
+			
+			leer  comprarProducto;
+			
+			Escribir   "gracias por la compra te esperamos nuevamente"
+		2:
+			Escribir "valor del producto: " 
+			Escribir "  dolex $ 100"
+			Escribir "  gota para los ojos $ 200 "
+			Escribir "  repelente  $ 300 "
+			Escribir "  agua $ 50 "
+			Escribir "  producto dermatologico $ 500 "
+			
+			Escribir " que producto deseas llevar "
+			
+			leer consultarValorProducto
+			
+			Escribir " si deseas continuar con  la compra ingresa a la opcion 1 "
+			
+			
+
+		3:
+			Escribir  "deseas devolver un producto indicanos cual:  "
+			Escribir "  dolex "
+			Escribir "  gota para los ojos "
+			Escribir "  repelente   "
+			Escribir "  agua "
+			Escribir "  producto dermatologico "
+			leer devoluciones
+			Escribir " esta pendiente el reintegro de tu dinero del producto: ", devoluciones;
+			Escribir " gracias por comprar en nuestras drogueria "
+			
+			
+	FinSegun
+	
+	
+
+
+	
+FinAlgoritmo

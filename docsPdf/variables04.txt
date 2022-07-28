@@ -1,0 +1,22 @@
+Proceso SofkaLearningHarold
+	
+	Definir ciudad Como Caracter;
+	Definir pais Como Caracter;
+	
+	
+	
+	Escribir "cual es la capital de tu pais";
+	Leer ciudad;
+	
+	Escribir "cual es tu pais";
+	Leer pais;
+	
+	
+	
+	
+	Limpiar Pantalla;
+	
+	Escribir " la ciudad de: ",ciudad, " es la capital de:  ",pais;
+	
+FinProceso
+

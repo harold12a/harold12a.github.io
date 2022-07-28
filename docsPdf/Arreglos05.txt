@@ -1,0 +1,41 @@
+Proceso Arreglos
+	
+	
+	Definir columna, fila,datos,x Como Entero;
+	
+	Dimension Datos[11,11];
+	
+	Para fila<-0 Hasta 10 Con Paso 1 Hacer 
+		Para columna<-0 Hasta 10 Con Paso 1 Hacer
+			datos[fila,columna]<- fila * columna;
+		FinPara
+	FinPara
+	
+	Para fila<-1 Hasta 10 Con Paso 1 Hacer
+		
+		Para columna<-1 Hasta 10 Con Paso 1 Hacer
+			si fila <>10 Entonces
+				Escribir fila, "x", columna, "  "  Sin Saltar;
+			SiNo
+				Escribir fila, "x", columna, "  " sin Saltar;
+			FinSi 
+			
+		FinPara
+		Escribir " ";
+	FinPara
+	Escribir "////////////////////////////////////////////";
+	Escribir "digite el numero de la fila";
+	Leer fila;
+	Escribir "digite el numero de la columna";
+	Leer columna;
+	Escribir "el resultado es:", datos[fila,columna], " " ;
+	Escribir "////////////////////////////////////////////";
+;
+	
+	
+
+	
+	
+	
+	
+FinProceso

@@ -1,0 +1,12 @@
+Algoritmo Ciclos
+	Definir n Como Entero
+	Escribir "escribe el numero de la tabla de multiplicar" 
+	Leer n;
+	Para b<-1 Hasta 10 Con Paso 1 Hacer
+		L = b*n
+		Escribir n,"x",b,"=",L
+	
+	
+	 
+	FinPara
+FinAlgoritmo

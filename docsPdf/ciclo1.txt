@@ -1,0 +1,19 @@
+Algoritmo Ciclos
+	Definir control Como Entero;
+	Para control <- 1 Hasta 1 Con Paso 1 Hacer
+		Escribir  "*"; 
+		Escribir  "***"; 
+		Escribir  "****"; 
+		Escribir  "*****"; 
+		Escribir  "******"; 
+		Escribir  "*******"; 
+		Escribir  "********"; 
+		Escribir  "*********"; 
+		Escribir  "**********"; 
+		Escribir  "************"; 
+		
+		
+		
+	FinPara
+	
+FinAlgoritmo

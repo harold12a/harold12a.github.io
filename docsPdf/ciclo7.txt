@@ -1,0 +1,212 @@
+Algoritmo Ejercicio7
+	
+	Definir usuario,consultar,retiro,vacio Como Caracter;
+
+	Definir Nombre1, placa1, marca1 Como Caracter;
+	Definir Nombre2, placa2, marca2 Como Caracter;
+	Definir Nombre3, placa3, marca3 Como Caracter;
+	Definir Nombre4, placa4, marca4 Como Caracter;
+	Definir Nombre5, placa5, marca5 Como Caracter;
+
+	
+	
+	
+	
+	Definir Tel1,Tel12,Tel3,Tel4,Tel5,i,Opciones Como Entero;
+	Definir control Como Logico
+	control<-Verdadero
+	vacio<- "";
+	
+	Repetir
+		Escribir "PARKING GUARDIAN";
+		Escribir " 1. INGRESAR AL PARKING";
+		Escribir " 2. RETIRAR VEHICULO";
+		Escribir " 3. CONSULTAR POR PLACA";
+		Escribir " 4. SALIR";
+		Leer Opciones;
+		
+		Segun Opciones Hacer
+			1:
+				i<-0;
+				Repetir
+					Escribir "REGISTRO USUARIO: ";
+					Escribir "REGISTRO PLACA: ";
+					Escribir "MARCA: ";
+					Escribir "REGISTRO TELEFONICO: ";
+					Escribir "************************************* ";
+					Escribir "REGISTRAR OTRO USUARIO ?";
+					
+					i<-i+1;
+					si i==1 Entonces
+						Escribir "USUARIO: ";
+						Leer Nombre1;
+						Escribir "PLACA: ";
+						Leer placa1;
+						Escribir "MARCA: ";
+						Leer marca1;
+						Escribir "CONTACTO: ";
+						Leer Tel1;
+						Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+						Leer usuario;
+					
+					SiNo
+						si i==2 Entonces
+							Escribir "USUARIO: ";
+							Leer Nombre2;
+							Escribir "PLACA: ";
+							Leer placa2;
+							Escribir "MARCA: ";
+							Leer marca2;
+							Escribir "CONTACTO: ";
+							Leer Tel2;
+							Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+							Leer usuario;
+						SiNo
+							si i==3 Entonces
+								Escribir "USUARIO: ";
+								Leer Nombre3;
+								Escribir "PLACA: ";
+								Leer placa3;
+								Escribir "MARCA: ";
+								Leer marca3;
+								Escribir "CONTACTO: ";
+								Leer Tel3;
+								Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+								Leer usuario;
+							SiNo
+								si i==4 Entonces
+									Escribir "USUARIO: ";
+									Leer Nombre4;
+									Escribir "PLACA: ";
+									Leer placa4;
+									Escribir "MARCA: ";
+									Leer marca4;
+									Escribir "CONTACTO: ";
+									Leer Tel4;
+									Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+									Leer usuario;
+								SiNo
+									si i==5 Entonces
+										Escribir "USUARIO: ";
+										Leer Nombre5;
+										Escribir "PLACA: ";
+										Leer placa5;
+										Escribir "MARCA: ";
+										Leer marca5;
+										Escribir "CONTACTO: ";
+										Leer Tel5;
+										Escribir "REGISTRAR OTRO USUARIO INGRESA SI O (n) PARA FINALIZAR ?";
+										Leer usuario;
+									
+							FinSi
+							
+									FinSi
+								
+								FinSi
+								
+							
+								FinSi
+							FinSi
+						
+					
+					Limpiar Pantalla;
+				Hasta Que usuario == "n" o i== 5
+				
+			2:
+				Escribir "RETIRAR VEHICULO";
+				Escribir "INGRESE PLACA";
+				Leer retiro;
+				
+				si retiro = placa1 Entonces
+					Escribir Nombre1," SU VEHICULO HA SIDO RETIRADO";
+					Nombre1<- "";
+					placa1<-"";
+					marca1<-"";
+					Tel1<-0;
+					Escribir "GRACIAS POR PREFERIRNOS LO ESPERAMOS PRONTAMENTE"
+				SiNo
+					
+				FinSi
+				si retiro = placa1 Entonces
+					Escribir Nombre1," SU VEHICULO HA SIDO RETIRADO";
+					Nombre1<- "";
+					placa1<-"";
+					marca1<-"";
+					Tel1<-0;
+					Escribir "GRACIAS POR PREFERIRNOS LO ESPERAMOS PRONTAMENTE"
+				SiNo
+					
+				FinSi
+				si retiro = placa1 Entonces
+					Escribir Nombre1," SU VEHICULO HA SIDO RETIRADO";
+					Nombre1<- "";
+					placa1<-"";
+					marca1<-"";
+					Tel1<-0;
+					Escribir "GRACIAS POR PREFERIRNOS LO ESPERAMOS PRONTAMENTE"
+				SiNo
+					
+				FinSi
+				si retiro = placa2 Entonces
+					Escribir Nombre2," SU VEHICULO HA SIDO RETIRADO";
+					Nombre2<- "";
+					placa2<-"";
+					marca2<-"";
+					Tel2<-0;
+					Escribir "GRACIAS POR PREFERIRNOS LO ESPERAMOS PRONTAMENTE"
+				SiNo
+					
+				FinSi
+				si retiro = placa3 Entonces
+					Escribir Nombre3," SU VEHICULO HA SIDO RETIRADO";
+					Nombre3<- ""
+					placa3<-"";
+					marca3<-"";
+					Tel3<-0;
+					Escribir "GRACIAS POR PREFERIRNOS LO ESPERAMOS PRONTAMENTE"
+				SiNo
+					
+				FinSi
+			
+				
+			3:
+				Escribir "BUSQUEDA POR PLACA";
+				Escribir "INGRESE PLACA";
+				Leer consular;
+				si consular = placa1 Entonces
+					Escribir " nombre: ", Nombre1," placa", placa1," marca: ", marca1," contacto: ",Tel1;
+					sino
+					FinSi
+					si consular = placa2 Entonces
+						Escribir " nombre: ", Nombre2," placa", placa2," marca: ", marca2," contacto: ",Tel2;
+					sino
+					FinSi
+					si consular = placa3 Entonces
+						Escribir " nombre: ", Nombre3," placa", placa3," marca: ", marca3," contacto: ",Tel3;
+					sino
+					FinSi
+					si consular = placa4 Entonces
+						Escribir " nombre: ", Nombre4," placa", placa4," marca: ", marca4," contacto: ",Tel4;
+					sino
+					FinSi
+					si consular = placa5 Entonces
+						Escribir " nombre: ", Nombre5," placa", placa5," marca: ", marca5," contacto: ",Tel5;
+					sino
+				
+						Escribir "EL VEHICULO A SIDO RETIRADO DEL PARKING"
+					FinSi
+				4:
+					Escribir "GRACIAS POR VISITARNOS"
+					control<-falso;
+				De Otro Modo:
+					Escribir "opcion no valida"
+		FinSegun
+		
+	
+	Hasta Que control == Falso
+	
+	
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,52 @@
+Algoritmo profesorMatematicas
+	
+	definir figura Como Entero;
+	definir area Como Real;
+	definir Rbas Como Real;
+	definir Ralt Como Real;
+	definir Tbas Como Real;
+	definir Talt Como Real;
+	definir Mabas Como Real;
+	definir mbas Como Real;
+	definir Tralt Como Real;
+	
+	Escribir "elige una figura geometrica para calcular el area";
+	Escribir "1. Rectangulo";
+	Escribir "2. Triangulo";
+	Escribir "3. Trapecio";
+	Leer figura;
+	
+	Segun figura Hacer
+		1:
+			Escribir "ingrese el valor de la base en cm: "
+			Leer Rbas;
+			Escribir "ingrese el valor de la altura en cm: "
+			Leer Ralt;
+			area<-Rbas+Ralt
+			Escribir "el area de su rectangulo es: ",area, "cm*2";
+		2:	
+			Escribir "ingrese el valor de la base en cm: "
+			Leer Tbas;
+			Escribir "ingrese el valor de la altura en cm: "
+			Leer Talt;
+			area<-(Tbas+Talt)/2;
+			Escribir "el area de su triangulo es: ",area, "cm*2";
+		3:
+			Escribir "ingrese el valor de la base mayor en cm: "
+			Leer Mabas;
+			Escribir "ingrese el valor de la base menor en cm: "
+			Leer mbas;
+			Escribir "digite el valor de la altura en cm "
+			Leer Tralt
+			area<-(Mabas+mbas)*(Tralt/2);
+			Escribir "el area de su trapecio es: ",area, "cm*2";
+			
+			
+			
+	FinSegun
+
+	
+
+
+	
+FinAlgoritmo

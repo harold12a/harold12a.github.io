@@ -1,0 +1,21 @@
+Proceso Arreglos
+	
+	
+	Definir posicion Como Entero;
+	Definir valores Como Caracter;
+	Dimension valores[5];
+	
+	valores[0] <- "[0] = 55";
+	valores[1] <- "[1] = 99";
+	valores[2] <- "[2] = 11";
+	valores[3] <- "[3] = 56";
+	valores[4] <- "[4] = 69";
+
+	
+	
+	Para posicion <-0 hasta 4 Con Paso 1 Hacer
+		Escribir valores[posicion];
+	FinPara
+	
+	
+FinProceso

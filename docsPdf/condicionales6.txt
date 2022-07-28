@@ -1,0 +1,39 @@
+Algoritmo Maquinista
+	
+
+	Definir nombre,moto Como Caracter;
+	Definir ingreso,ingresoTaller, observaciones, salidaTaller, novedades, arreglos,estado Como Caracter;
+	
+	
+	Escribir " nombre del propietario de la moto : "
+	leer  nombre;
+	Escribir " moto alto cilindraje : "
+	leer moto;
+	
+	Escribir " por segurdiad vamos hacer ingreso de su moto de alto cilindraje";
+	
+	Escribir " acontinacion vamos hacer el  ingreso de su moto ", moto, " al taller de moto EL MAQUINISTA"
+	Escribir " indique la fecha del ingreso al taller";
+	Leer ingreso
+		  Escribir " estado de la moto indique un rango siendo 1 malo y 10 optimo "
+			leer estado
+			Escribir " ingrese el motivo del ingreso"
+			leer ingresoTaller
+			Escribir "  observaciones de la moto ", moto;
+			Leer observaciones
+			Escribir " novedades de la moto ", moto;
+			Leer novedades
+			Escribir "  arreglos que se le hicieron a la moto  ", moto;
+			Leer arreglos
+			Escribir " inquide la fecha de salida del taller de la moto ", moto;
+			Leer salidaTaller
+			
+			Escribir " gracias por preferirnos"
+			
+			
+	
+	
+
+
+	
+FinAlgoritmo

@@ -1,0 +1,34 @@
+Proceso Arreglos
+	
+	
+	Definir array,i,vector Como Entero;
+	
+	Dimension array[100];
+	
+	Para i<-0 hasta 99 con paso 1 Hacer
+			array[i]<-azar(99);
+			Escribir " ",array[i];
+		FinPara
+		para i <-0 hasta 99 con paso 1 Hacer
+			array[i]<-azar(20);
+			Escribir " ", array[i];
+		Finpara
+		
+			
+		Para i<-0 hasta 10 Con Paso 1 Hacer
+			
+			si i%2 = 0 Entonces
+				Escribir " numeros pares : " ,i,; 
+				Escribir " ";
+			SiNo
+				Escribir " numeros impares " ,i,;
+					
+					FinSi
+					
+				FinPara
+			
+				
+
+	
+	
+FinProceso

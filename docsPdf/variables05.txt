@@ -1,0 +1,33 @@
+Proceso SofkaLearningHarold
+	
+	Definir nombre Como Caracter;
+	Definir edad Como Entero;
+	Definir especie Como Caracter;
+	Definir NombreD Como Caracter;
+	
+	
+	
+	Escribir "cual es el nombre de su mascota";
+	Leer nombre;
+	
+	Escribir "edad de tu mascota";
+	Leer edad;
+	
+	Escribir "especie";
+	Leer especie;
+	
+	Escribir "tu nombre completo";
+	Leer NombreD;
+	
+	
+	
+	Limpiar Pantalla;
+	
+	Escribir " mi mascota se llama:  " nombre;
+	Escribir " es un:  " especie;
+	
+	Escribir "tiene una edad de: " ,edad, "años de edad";
+	
+	Escribir "y",NombreD, "es su actual dueño";
+	
+FinProceso

@@ -1,0 +1,14 @@
+Proceso SofkaLearningHarold
+	Definir nombre Como Caracter;
+	Definir apellido Como Caracter;
+	
+	Escribir "cual es tu primer nombre";
+	Leer nombre;
+	Escribir "cuales son tus apellidos";
+	Leer apellido;
+	
+	Limpiar Pantalla;
+	
+	Escribir " mi nombre es: ", nombre, " y tengo estos apellidos: ", apellido;
+	
+FinProceso
