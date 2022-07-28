@@ -7,6 +7,7 @@ En esta seccion estan todos los talleres realizados durante este proceso en PSeI
 # 3- contacto
 En esta seccion esta el formulario, con su respectiva validacion en la console, y alertas si no esta completa dicha informacion solicitada
 # 4- inicio
-En esta seccion encontras informacion personal y hoja de vida para descargar en PDF
-#visita mi paguina web en el siguiente link
+En esta seccion encontras informacion personal y hoja de vida para descargar en PDF.
+
+# visita mi paguina web en el siguiente link
 https://harold12a.github.io/index.html
